@@ -1,10 +1,12 @@
 <?php
+
 namespace Flame\Auth;
 
 use Flame\BaseAuth\BaseAuth;
 use Flame\Crud\Crud;
 use Flame\Config\CookieConfig;
 use PDO;
+use Exception;
 
 /**
  * Clase para manejar autenticación JWT personalizada sin librerías externas.
@@ -20,7 +22,7 @@ class JWT extends BaseAuth
         $this->pdo = $pdo;
     }
 
-    public function login($userData): string
+    public function login(array $userData = []): string
     {
         $issuedAt = time();
         $expiration = $issuedAt + (int) ($_ENV['JWT_EXPIRATION'] ?? 3600);
@@ -40,16 +42,26 @@ class JWT extends BaseAuth
         return $this->token;
     }
 
-    public function logout(): bool
+    public function logout(): void
     {
         $token = $this->getTokenFromCookie();
-        if (!$token) return false;
+        if (!$token) {
+            throw new Exception("Logout: No se encontró el token en la cookie.");
+        }
 
         $crud = new Crud($this->pdo);
-        $result = $crud->create(['token' => $token, 'created_at' => date('Y-m-d H:i:s')], 'jwt_blacklist');
+        $result = $crud->create([
+            'token' => $token,
+            'created_at' => date('Y-m-d H:i:s')
+        ], 'jwt_blacklist');
 
+        if (!isset($result['status']) || !$result['status']) {
+            // Logueo del fallo. Opcionalmente podrías lanzar una excepción si lo necesitás.
+            throw new Exception("Logout: No se pudo guardar el token en la blacklist. Resultado: " . json_encode($result));
+        }
+
+        // Finalmente, eliminar la cookie
         setcookie($this->cookieName, '', CookieConfig::getCookieParams(time() - 3600));
-        return $result['status'];
     }
 
     public function check(): bool
@@ -65,6 +77,9 @@ class JWT extends BaseAuth
         if ($result['status'] && !empty($result['data'])) return false;
 
         $this->user = $decoded['user'] ?? null;
+        if (!$this->user || !is_array($this->user) || empty($this->user)) {
+            return false;
+        }
         return true;
     }
 
@@ -77,11 +92,26 @@ class JWT extends BaseAuth
     {
         if (!$this->user) return [];
 
+        // Validar que todas las claves existan
+        foreach ($keys as $key) {
+            if (!array_key_exists($key, $this->user)) {
+                throw new Exception("Clave: '{$key}' No existe en Session", 1);
+                return []; // Si falta alguna clave, no devuelve nada
+            }
+        }
+
         return array_filter(
             $this->user,
             fn($k) => in_array($k, $keys),
             ARRAY_FILTER_USE_KEY
         );
+    }
+
+    public function existInDB(array $keys = []): bool
+    {
+        $crud = new Crud($this->pdo);
+        $result = $crud->read('usuarios', $keys, ['id'], null, 1);
+        return $result['status'] && !empty($result['data']);
     }
 
     public function refresh(): ?string
@@ -93,14 +123,7 @@ class JWT extends BaseAuth
         unset($decoded['iat'], $decoded['exp']);
         return $this->login($decoded['user']);
     }
-
-    public function existInDB(array $keys = []): bool
-    {
-        $crud = new Crud($this->pdo);
-        $result = $crud->read('usuarios', $keys, ['id'], null, 1);
-        return $result['status'] && !empty($result['data']);
-    }
-
+    
     public function encode(array $payload): string
     {
         $header = ['alg' => $_ENV['JWT_ALGO'] ?? 'HS256', 'typ' => 'JWT'];
