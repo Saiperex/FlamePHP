@@ -36,12 +36,32 @@ final class WebRouter
     }
     public function dispatch(): void
     {
-        $routeKey = $_GET['page'] ?? 'home';
+        $routeKey = $_GET['url'] ?? 'home';
 
         if (!isset($this->routes[$routeKey])) {
-            http_response_code(404);
-            header("Location: " . ($_ENV['FALLBACK'] ?? '404'));
-            exit;
+            $useFallback = filter_var($_ENV['USE_FALLBACK'] ?? true, FILTER_VALIDATE_BOOLEAN);
+            if ($useFallback) {
+                http_response_code(404);
+                header("Location: " . ($_ENV['FALLBACK'] ?? '404'));
+                exit;
+            }
+            // Invocar DefaultController en caso de ruta no encontrada
+            $controllerDefaultNamespace = rtrim($_ENV['CONTROLLER_NAMESPACE'] ?? 'App\\Controllers', '\\');
+            $defaultControllerClass = $controllerDefaultNamespace . '\\DefaultController';
+            if (!class_exists($defaultControllerClass)) {
+                throw new Exception("DefaultController '$defaultControllerClass' no encontrado.");
+            }
+            $auth_conn = filter_var($_ENV['DB_ACTIVATION'] ?? false, FILTER_VALIDATE_BOOLEAN);
+            $defaultInstance = $auth_conn
+                ? new $defaultControllerClass($this->pdo)
+                : new $defaultControllerClass();
+
+            if (!method_exists($defaultInstance, 'index')) {
+                throw new Exception("DefaultController '$defaultControllerClass' no tiene método 'index'.");
+            }
+
+            $defaultInstance->index();
+            return ;
         }
 
         $route = $this->routes[$routeKey];
@@ -104,8 +124,7 @@ final class WebRouter
             ? new $controllerClass($this->pdo)
             : new $controllerClass();
         //Ejecutamos el método index del controlador
-        if (!method_exists($controllerInstance, 'index')) 
-        {
+        if (!method_exists($controllerInstance, 'index')) {
             throw new Exception("El controlador '$controllerClass' no tiene un método 'index'.");
         }
         $controllerInstance->index();

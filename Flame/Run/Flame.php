@@ -2,6 +2,7 @@
 
 namespace Flame\Run;
 
+use Flame\Auth\Session;
 use Flame\Core\ErrorHandler;
 use Throwable;
 use Flame\Core\EnvLoader;
@@ -10,17 +11,17 @@ use Flame\Routing\WebRouter;
 use Flame\Routing\ActionRouter;
 
 /**
- * Clase principal del framework Flame.
+ * Clase principal.
  * 
  * Esta clase contiene métodos estáticos para gestionar excepciones, errores y la inicialización
  * de la aplicación, como el establecimiento de la zona horaria y la carga del entorno. También 
  * se encarga de manejar excepciones no atrapadas, errores fatales y no fatales durante la ejecución.
  * 
- * @package Flame\Run
+ * @package App\Run
  */
 final class Flame
 {
-    /**
+     /**
      * Establece la zona horaria global para la aplicación.
      *
      * @param string $timezone La zona horaria (ej. 'UTC', 'America/Argentina/Buenos_Aires').
@@ -136,7 +137,6 @@ final class Flame
     {
         echo "Ha ocurrido un error inesperado.";
     }
-
     /**
      * Método principal para iniciar la aplicación.
      * 
@@ -150,7 +150,6 @@ final class Flame
             self::handleException($e);
         }
     }
-
     /**
      * Realiza la inicialización de la aplicación.
      * 
@@ -159,9 +158,9 @@ final class Flame
      */
     private static function initialize(): void
     {
-        // 1. Cargar .env
+        // 1. Cargar .env e inicio session
         EnvLoader::load();
-
+        Session::sessionStart();
         // 2. Abrir conexión a la base de datos
         $auth_conn = filter_var($_ENV['DB_ACTIVATION'] ?? false, FILTER_VALIDATE_BOOLEAN);
         if ($auth_conn) {
@@ -179,8 +178,7 @@ final class Flame
         // 4. Cerrar la conexión a la base de datos
         Connection::close();
     }
-
-    /**
+     /**
      * Maneja las excepciones globales que ocurren durante la ejecución.
      * 
      * Si está habilitado el modo de depuración, se muestra la traza del error.
@@ -207,7 +205,7 @@ final class Flame
         }
     }
 
-    // Aqui comienza la parte del entry point de los action. 
+     // Aqui comienza la parte del entry point de los action. 
 
     public static function runReactive(): void
     {
@@ -257,6 +255,5 @@ final class Flame
             'error' => $debug ? $e->getMessage() : 'Error inesperado.'
         ]);
     }
+
 }
-// End of file: Flame/Run/Flame.php
-// Location: Flame/Run/Flame.php

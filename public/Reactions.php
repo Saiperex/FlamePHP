@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 use Flame\Run\Flame;
 
 // Autoload de Flame y App
@@ -10,4 +9,5 @@ Flame::setTimezone('America/Argentina/Buenos_Aires');
 // Entrada para acciones reactivas
 Flame::exceptionsNoAtrapadas();
 Flame::exceptionsNoFatales();
+Flame::exceptionsFatales();
 Flame::runReactive();

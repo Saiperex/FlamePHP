@@ -29,7 +29,7 @@ class Redirection
         }
 
         // Redirigir
-        header("Location: ?page=$redirectTo");
+        header("Location: $redirectTo");
         exit;
     }
 }

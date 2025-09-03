@@ -227,7 +227,7 @@ class Crud
             ];
         }
     }
-    /**
+   /**
      * Verifica si una tabla existe en la base de datos.
      *
      * @param string $tabla Nombre de la tabla a verificar.
@@ -236,19 +236,18 @@ class Crud
     private function tablaExiste(string $tabla): array
     {
         try {
-            $stmt = $this->db->prepare("SHOW TABLES LIKE :tabla");
-            $stmt->bindValue(':tabla', $tabla);
-            $stmt->execute();
+            $tablaEscapada = $this->db->quote($tabla);
+            $stmt = $this->db->query("SHOW TABLES LIKE $tablaEscapada");
 
             return $stmt->fetch() !== false ?
-            [
-                'status' => true,
-                'message' => "La tabla '$tabla' existe."
-            ] :
-            [
-                'status' => false,
-                'message' => "La tabla '$tabla' no existe."
-            ];
+                [
+                    'status' => true,
+                    'message' => "La tabla '$tabla' existe."
+                ] :
+                [
+                    'status' => false,
+                    'message' => "La tabla '$tabla' no existe."
+                ];
         } catch (\PDOException $e) {
             return [
                 'status' => false,

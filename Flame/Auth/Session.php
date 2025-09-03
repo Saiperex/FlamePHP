@@ -6,6 +6,7 @@ use Flame\BaseAuth\BaseAuth;
 use Flame\Crud\Crud;
 use Flame\Config\CookieConfig;
 use Exception;
+use PDO;
 
 /**
  * Clase que maneja autenticación basada en sesiones PHP nativas.
@@ -13,6 +14,11 @@ use Exception;
  */
 class Session extends BaseAuth
 {
+    protected PDO $pdo;
+    public function __construct(PDO $pdo)
+    {
+        $this->pdo = $pdo;
+    }
     public function login(array $userData = []): void
     {
         $this->sessionStart();
@@ -23,12 +29,22 @@ class Session extends BaseAuth
     {
         $this->sessionStart();
         $_SESSION = [];
+
         if (ini_get("session.use_cookies")) {
-            $params = CookieConfig::getCookieParams(time() - 42000);
-            setcookie(session_name(), '', $params);
+            $params = CookieConfig::getCookieParams();
+            setcookie(session_name(), '', [
+                'expires' => time() - 42000,
+                'path' => $params['path'],
+                'domain' => $params['domain'],
+                'secure' => $params['secure'],
+                'httponly' => $params['httponly'],
+                'samesite' => $params['samesite'],
+            ]);
         }
+
         session_destroy();
     }
+
 
     public function check(): bool
     {
@@ -67,13 +83,13 @@ class Session extends BaseAuth
         );
     }
 
-    public function existInDB(array $keys = [], \PDO $pdo): bool
+    public function existsInDb(array $keys = []): bool
     {
-        $crud = new Crud($pdo);
-        $result = $crud->read('usuarios', $keys, ['id'], null, 1);
+        $crud = new Crud($this->pdo);
+        $result = $crud->read('usuarios', $keys, null, null, 1);
         return $result['status'] && !empty($result['data']);
     }
-    
+
     public static function sessionStart(): void
     {
         if (session_status() === PHP_SESSION_NONE) {
@@ -85,6 +101,4 @@ class Session extends BaseAuth
             session_start();
         }
     }
-
-    
 }

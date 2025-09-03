@@ -56,13 +56,21 @@ class JWT extends BaseAuth
         ], 'jwt_blacklist');
 
         if (!isset($result['status']) || !$result['status']) {
-            // Logueo del fallo. Opcionalmente podrías lanzar una excepción si lo necesitás.
             throw new Exception("Logout: No se pudo guardar el token en la blacklist. Resultado: " . json_encode($result));
         }
 
-        // Finalmente, eliminar la cookie
-        setcookie($this->cookieName, '', CookieConfig::getCookieParams(time() - 3600));
+        // Eliminación correcta de la cookie
+        $params = CookieConfig::getCookieParams();
+        setcookie($this->cookieName, '', [
+            'expires' => time() - 3600,
+            'path' => $params['path'],
+            'domain' => $params['domain'],
+            'secure' => $params['secure'],
+            'httponly' => $params['httponly'],
+            'samesite' => $params['samesite'],
+        ]);
     }
+
 
     public function check(): bool
     {
@@ -107,10 +115,10 @@ class JWT extends BaseAuth
         );
     }
 
-    public function existInDB(array $keys = []): bool
+    public function existsInDb(array $keys = []): bool
     {
         $crud = new Crud($this->pdo);
-        $result = $crud->read('usuarios', $keys, ['id'], null, 1);
+        $result = $crud->read('usuarios', $keys, null, null, 1);
         return $result['status'] && !empty($result['data']);
     }
 
@@ -123,7 +131,7 @@ class JWT extends BaseAuth
         unset($decoded['iat'], $decoded['exp']);
         return $this->login($decoded['user']);
     }
-    
+
     public function encode(array $payload): string
     {
         $header = ['alg' => $_ENV['JWT_ALGO'] ?? 'HS256', 'typ' => 'JWT'];

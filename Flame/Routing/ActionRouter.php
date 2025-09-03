@@ -55,35 +55,45 @@ final class ActionRouter
 
         foreach ($route['middlewares'] ?? [] as $middlewareConfig) {
             $middlewareName = $middlewareConfig['middleware-name'] ?? null;
-            $middlewareTarget = $middlewareConfig['middleware-data'] ?? 'data'; // data o files
+            $middlewareTarget = $middlewareConfig['middleware-target'] ?? 'data'; 
             $expectedResult = $middlewareConfig['middleware-result'] ?? true;
 
-            if (!$middlewareName) {
-                throw new Exception("Middleware sin nombre definido en acción '$actionKey'.");
+            if (!$middlewareName) 
+            {
+                $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">Middleware sin nombre definido en acción '.$actionKey.'.</div>');
+                echo $respuesta->toJson();
+                exit;
             }
 
             $namespace = rtrim($_ENV['MIDDLEWARE_NAMESPACE'] ?? 'App\\Middleware', '\\');
             $className = "$namespace\\$middlewareName";
 
-            if (!class_exists($className)) {
-                throw new Exception("El middleware '$className' no existe.");
+            if (!class_exists($className)) 
+            {
+                $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">El middleware '.$className.' no existe.</div>');
+                echo $respuesta->toJson();
+                exit;
             }
-
-            $middlewareInstance = $this->pdo
-                ? new $className($this->pdo)
-                : new $className();
-
-            if (!method_exists($middlewareInstance, 'handle')) {
-                throw new Exception("El middleware '$className' no tiene un método 'handle'.");
-            }
-
             $input = $middlewareTarget === 'files' ? $processedFiles : $processedData;
+            $middlewareInstance = $this->pdo
+                ? new $className($this->pdo, $input)
+                : new $className(null,$input);
+
+            if (!method_exists($middlewareInstance, 'handle')) 
+            {
+                $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">El middleware '.$className.' no tiene un método handle</div>');
+                echo $respuesta->toJson();
+                exit;
+            }
 
             /** @var MiddlewareResponse $response */
-            $response = $middlewareInstance->handle($input);
+            $response = $middlewareInstance->handle();
 
-            if ($response->success !== $expectedResult) {
-                throw new Exception("Middleware '$className' falló en acción '$actionKey'.");
+            if ($response->success !== $expectedResult) 
+            {
+                $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-warning">'.$response->data.'</div>');
+                echo $respuesta->toJson();
+                exit;
             }
 
             // Actualizar data o files según corresponda
@@ -96,31 +106,43 @@ final class ActionRouter
 
         // Ejecutar acción
         $actionName = $route['action'] ?? null;
-        if (!$actionName) {
-            throw new Exception("Acción no definida para la clave '$actionKey'.");
+        if (!$actionName) 
+        {
+            $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">Acción no definida para la clave '.$actionKey.'</div>');
+            echo $respuesta->toJson();
+            exit;
         }
 
         $namespace = rtrim($_ENV['ACTION_NAMESPACE'] ?? 'App\\Actions', '\\');
         $actionClass = "$namespace\\$actionName";
 
-        if (!class_exists($actionClass)) {
-            throw new Exception("La clase de acción '$actionClass' no existe.");
+        if (!class_exists($actionClass)) 
+        {
+            $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">La clase de acción '.$actionClass.' no existe</div>');
+            echo $respuesta->toJson();
+            exit;
         }
 
         $actionInstance = $this->pdo
-            ? new $actionClass($this->pdo)
-            : new $actionClass();
+            ? new $actionClass($this->pdo, $processedData, $processedFiles)
+            : new $actionClass(null, $processedData, $processedFiles);
 
-        if (!method_exists($actionInstance, 'handle')) {
-            throw new Exception("La clase '$actionClass' no tiene un método 'handle'.");
+        if (!method_exists($actionInstance, 'handle')) 
+        {
+            $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">La clase '.$actionClass.' no tiene un método handle</div>');
+            echo $respuesta->toJson();
+            exit;
         }
 
         // Ejecutar la acción y obtener el ActionResponse
         /** @var ActionResponse $response */
         $response = $actionInstance->handle($processedData, $processedFiles);
 
-        if (!$response instanceof ActionResponse) {
-            throw new Exception("La acción '$actionClass' no devolvió un ActionResponse válido.");
+        if (!$response instanceof ActionResponse) 
+        {
+            $respuesta = new ActionResponse(false, '#message', '<div class="alert alert-danger">La acción '.$actionClass.' no devolvió un ActionResponse válido</div>');
+            echo $respuesta->toJson();
+            exit;
         }
 
         header('Content-Type: application/json');

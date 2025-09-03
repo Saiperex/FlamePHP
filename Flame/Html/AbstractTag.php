@@ -89,8 +89,9 @@ abstract class AbstractTag implements RenderableInterface
         $className = (new ReflectionClass($this))->getShortName();
         $assetsUrl = rtrim($_ENV['ASSETS_URL'] ?? 'assets/components', '/');
         $cssFile = $className . '.css';
+        $publicFolder=$_ENV['PUBLIC_FOLDER'] ?? 'public';
         $publicCssPath = '/' . $assetsUrl . '/' . $cssFile;
-        $localCssPath = dirname(__DIR__, 2) . '/public/' . $assetsUrl . '/' . $cssFile;
+        $localCssPath = dirname(__DIR__, 2) . '/'.$publicFolder.'/' . $assetsUrl . '/' . $cssFile;
 
         if (file_exists($localCssPath)) {
             AssetManager::registerStyle($publicCssPath);
@@ -104,8 +105,9 @@ abstract class AbstractTag implements RenderableInterface
         $className = (new ReflectionClass($this))->getShortName();
         $assetsUrl = rtrim($_ENV['ASSETS_URL'] ?? 'assets/components', '/');
         $jsFile = $className . '.js';
+        $publicFolder=$_ENV['PUBLIC_FOLDER'] ?? 'public';
         $publicJsPath = '/' . $assetsUrl . '/' . $jsFile;
-        $localJsPath = dirname(__DIR__, 2) . '/public/' . $assetsUrl . '/' . $jsFile;
+        $localJsPath = dirname(__DIR__, 2) . '/'.$publicFolder.'/' . $assetsUrl . '/' . $jsFile;
 
         if (file_exists($localJsPath)) {
             AssetManager::registerScript($publicJsPath);

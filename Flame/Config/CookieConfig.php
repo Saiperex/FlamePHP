@@ -3,10 +3,10 @@ namespace Flame\Config;
 
 class CookieConfig
 {
-    public static function getCookieParams(int $expiration = 0): array
+    public static function getCookieParams(): array
     {
         return [
-            'expires' => $expiration,
+            'lifetime' => (int)($_ENV['SESSION_EXPIRATION'] ?? 3600), 
             'path' => $_ENV['COOKIE_PATH'] ?? '/',
             'domain' => $_ENV['COOKIE_DOMAIN'] ?? ($_SERVER['HTTP_HOST'] ?? ''),
             'secure' => filter_var($_ENV['COOKIE_SECURE'] ?? true, FILTER_VALIDATE_BOOLEAN),

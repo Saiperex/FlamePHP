@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Flame Component Builder</title>
+    <style>
+        body { display: flex; font-family: sans-serif; margin: 0; height: 100vh; }
+        .sidebar, .attributes-panel { width: 250px; background: #f0f0f0; padding: 10px; overflow-y: auto; }
+        .canvas { flex: 1; padding: 10px; background: #fafafa; border-left: 1px solid #ccc; display: flex; flex-direction: column; }
+        .tree { flex: 1; overflow-y: auto; border: 1px dashed #ccc; padding: 10px; background: #fff; }
+        .export { margin-top: 10px; }
+        .component { padding: 5px; border: 1px solid #ccc; margin: 5px 0; background: #e0e0e0; cursor: grab; }
+        .dropzone { border: 2px dashed #999; min-height: 50px; padding: 10px; margin: 5px 0; background: #f9f9f9; }
+        .nested { margin-left: 20px; }
+        .selected { outline: 2px solid blue; }
+        .layout { display: flex; width: 100%; height: 100%; }
+        .modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; }
+        .modal-content { background: #fff; padding: 20px; border-radius: 5px; width: 300px; }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <div class="sidebar">
+        <h3>Tags Base</h3>
+        <div class="component" draggable="true" data-type="tag" data-name="Div">Div</div>
+        <div class="component" draggable="true" data-type="tag" data-name="Header">Header</div>
+        <div class="component" draggable="true" data-type="tag" data-name="Img">Img</div>
+        <div class="component" draggable="true" data-type="tag" data-name="Nav">Nav</div>
+        <button id="createComponentBtn">Crear Componente</button>
+    </div>
+
+    <div class="canvas">
+        <h3>Estructura del Componente</h3>
+        <div class="tree dropzone" id="dropzone-root" data-type="root">
+            <p>Arrastra tags aquí</p>
+        </div>
+        <button class="export" id="exportBtn">Exportar a PHP</button>
+        <textarea id="phpOutput" rows="10" style="width: 100%; margin-top: 10px;"></textarea>
+    </div>
+
+    <div class="attributes-panel" id="attributesPanel">
+        <h3>Atributos</h3>
+        <div id="attributesList"></div>
+        <button id="addAttribute">Agregar Atributo</button>
+    </div>
+</div>
+
+<div class="modal" id="componentModal" style="display:none;">
+    <div class="modal-content">
+        <h3>Crear Componente</h3>
+        <label>Nombre:</label>
+        <input type="text" id="componentName"><br>
+        <label>Extiende de:</label>
+        <select id="extendsTag">
+            <option value="Div">Div</option>
+            <option value="Header">Header</option>
+            <option value="Nav">Nav</option>
+        </select><br><br>
+        <button id="confirmCreateComponent">Crear</button>
+    </div>
+</div>
+
+<script>
+const tagsBaseConfig = {
+    'Div': { canHaveChildren: true },
+    'Header': { canHaveChildren: true },
+    'Nav': { canHaveChildren: true },
+    'Img': { canHaveChildren: false },
+};
+
+let dragged;
+let selectedNode = null;
+let componentDefinition = { name: '', extends: '', attributes: {}, children: [] };
+
+// Crear Componente
+
+const componentModal = document.getElementById('componentModal');
+document.getElementById('createComponentBtn').addEventListener('click', () => {
+    componentModal.style.display = 'flex';
+});
+
+document.getElementById('confirmCreateComponent').addEventListener('click', () => {
+    const name = document.getElementById('componentName').value;
+    const ext = document.getElementById('extendsTag').value;
+    if (!name) { alert('Debe tener nombre'); return; }
+    componentDefinition.name = name;
+    componentDefinition.extends = ext;
+    componentModal.style.display = 'none';
+    document.getElementById('dropzone-root').innerHTML = `<strong>${name}</strong>`;
+});
+
+// Drag & Drop
+
+document.querySelectorAll('.component').forEach(comp => {
+    comp.addEventListener('dragstart', (e) => {
+        dragged = { type: comp.dataset.type, name: comp.dataset.name };
+    });
+});
+
+function allowDrop(e) { e.preventDefault(); }
+
+function drop(e) {
+    e.preventDefault();
+    if (!dragged || !componentDefinition.name) return;
+
+    const parent = e.currentTarget;
+    const parentName = parent.dataset.name;
+
+    if (parent.dataset.type === 'tag' && tagsBaseConfig[parentName] && !tagsBaseConfig[parentName].canHaveChildren) {
+        alert('Este tag no acepta hijos.');
+        return;
+    }
+
+    const newElem = document.createElement('div');
+    newElem.className = 'dropzone nested';
+    newElem.setAttribute('data-type', dragged.type);
+    newElem.setAttribute('data-name', dragged.name);
+    newElem.setAttribute('data-attrs', JSON.stringify({}));
+    newElem.innerHTML = `<strong>${dragged.name}</strong>`;
+
+    if (tagsBaseConfig[dragged.name]?.canHaveChildren) {
+        newElem.addEventListener('dragover', allowDrop);
+        newElem.addEventListener('drop', drop);
+    }
+
+    newElem.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        document.querySelectorAll('.dropzone').forEach(z => z.classList.remove('selected'));
+        newElem.classList.add('selected');
+        selectedNode = newElem;
+        loadAttributes(selectedNode);
+    });
+
+    parent.appendChild(newElem);
+}
+
+document.querySelectorAll('.dropzone').forEach(zone => {
+    zone.addEventListener('dragover', allowDrop);
+    zone.addEventListener('drop', drop);
+});
+
+// Attributes
+
+document.getElementById('addAttribute').addEventListener('click', () => {
+    if (!selectedNode) return;
+    const key = prompt('Nombre del atributo:');
+    const value = prompt('Valor del atributo:');
+    if (key && value) {
+        const attrs = JSON.parse(selectedNode.getAttribute('data-attrs'));
+        attrs[key] = value;
+        selectedNode.setAttribute('data-attrs', JSON.stringify(attrs));
+        loadAttributes(selectedNode);
+    }
+});
+
+function loadAttributes(node) {
+    const attrsPanel = document.getElementById('attributesList');
+    attrsPanel.innerHTML = '';
+    const attrs = JSON.parse(node.getAttribute('data-attrs'));
+    for (const key in attrs) {
+        const div = document.createElement('div');
+        div.textContent = `${key}: ${attrs[key]}`;
+        attrsPanel.appendChild(div);
+    }
+}
+
+// Export PHP
+
+document.getElementById('exportBtn').addEventListener('click', () => {
+    const structure = buildStructure(document.getElementById('dropzone-root'));
+    const phpCode = generatePHP(structure);
+    document.getElementById('phpOutput').value = phpCode;
+});
+
+function buildStructure(element) {
+    const children = [];
+    element.querySelectorAll(':scope > .dropzone.nested').forEach(child => {
+        children.push({
+            type: child.getAttribute('data-type'),
+            name: child.getAttribute('data-name'),
+            attrs: JSON.parse(child.getAttribute('data-attrs')),
+            children: buildStructure(child)
+        });
+    });
+    return children;
+}
+
+function generatePHP(structure) {
+    let code = `final class ${componentDefinition.name} extends ${componentDefinition.extends} {\n`;
+    code += `    public function __construct() {\n`;
+    code += `        parent::__construct([/* atributos */], [\n`;
+
+    function render(nodes, depth = 3) {
+        const indent = '    '.repeat(depth);
+        nodes.forEach(node => {
+            const attrsArray = Object.entries(node.attrs).map(([k,v]) => `'${k}'=>'${v}'`).join(', ');
+            const attrsStr = attrsArray ? `[${attrsArray}]` : '[]';
+            code += `${indent}new ${node.name}(${attrsStr}),\n`;
+        });
+    }
+
+    render(structure);
+    code += `        ]);\n    }\n}`;
+    return code;
+}
+</script>
+</body>
+</html>

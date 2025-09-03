@@ -20,14 +20,8 @@ abstract class BaseAuth
     {
         return $this->check() && is_array($this->getUser()) && !empty($this->getUser());
     }
-    public function requireAuth(string $redirectTo = '/login'): void
-    {
-        if (!$this->isAuthenticated()) 
-        {
-            $this->logout(); // Limpia la sesión o el token
-            header("Location: $redirectTo");
-            exit;
-        }
-    }
+    // Verifica si el usuario actual sigue existiendo en la base de datos
+    abstract public function existsInDb(): bool;
+    
 }
 
