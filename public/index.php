@@ -9,4 +9,5 @@ require_once __DIR__ . '/../Flame/Core/Autoload.php';
 Flame::setTimezone('America/Argentina/Buenos_Aires');
 Flame::exceptionsNoAtrapadas();
 Flame::exceptionsNoFatales();
+Flame::exceptionsFatales();
 Flame::run();
