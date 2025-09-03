@@ -1,19 +1,18 @@
 <?php
 return 
 [
-    'home' => [
+    'home' => 
+    [
         'controller' => 'HomeController',
         'middlewares' => 
         [
         ],
     ],
-    'fallback' => [
-        'controller' => 'FallbackController',
+    'crear' => 
+    [
+        'controller' => 'CrearController',
         'middlewares' => 
         [
-            ['middleware-name' =>  'middlewareQueNoExiste',
-            'middleware-result' => 'true']
         ],
     ]
-    // Agrega más rutas según sea necesario
 ];
