@@ -1,0 +1,393 @@
+[19:54:18] [Advertencia] La ruta para logs no está definida en la variable de entorno LOG_PATH. Se está usando la ruta por defecto: E:\xampp\htdocs\appsitev9\Flame\Core/../../storage/logs
+[19:54:18] Excepción [Exception]: Archivo de rutas inválido: E:\xampp\htdocs\appsitev9\Flame\Routing/../../App/Config/web.php en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:26
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(18): Flame\Routing\WebRouter->loadRoutes('App/Config/web....')
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(172): Flame\Routing\WebRouter->__construct(Object(PDO))
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#3 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#4 {main}
+[20:00:47] Excepción [Exception]: Error al obtener Datos: La tabla 'datos_contacto' no existe. en E:\xampp\htdocs\appsitev9\App\Controllers\HomeController.php:23
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\HomeController->index()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#3 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#4 {main}
+[20:01:21] Excepción [Exception]: Error al renderizar la vista 'App\Views\Views\Home\HomeView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/HomeMainContacto.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\Views\Views\Home\HomeView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\HomeController.php(40): Flame\BaseController\BaseController->render('App\\Views\\views...', Array)
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\HomeController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:01:53] Excepción [Exception]: Error al renderizar la vista 'App\Views\Views\Home\HomeView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/HomeMainContacto.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\Views\Views\Home\HomeView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\HomeController.php(40): Flame\BaseController\BaseController->render('App\\Views\\views...', Array)
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\HomeController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:02:26] Excepción [Exception]: Error al renderizar la vista 'App\Views\Views\Home\HomeView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/HomeMainContacto.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\Views\Views\Home\HomeView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\HomeController.php(40): Flame\BaseController\BaseController->render('App\\Views\\views...', Array)
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\HomeController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:02:29] Excepción [Exception]: Error al renderizar la vista 'App\Views\Views\Home\HomeView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/HomeMainContacto.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\Views\Views\Home\HomeView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\HomeController.php(40): Flame\BaseController\BaseController->render('App\\Views\\views...', Array)
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\HomeController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:02:38] Excepción [Exception]: Error al renderizar la vista 'App\Views\Views\Home\HomeView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/HomeMainContacto.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\Views\Views\Home\HomeView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\HomeController.php(40): Flame\BaseController\BaseController->render('App\\Views\\views...', Array)
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\HomeController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:11:20] Error fatal [ParseError]: syntax error, unexpected token "return", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:11:25] Error fatal [ParseError]: syntax error, unexpected token "return" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:11:28] Error fatal [ParseError]: syntax error, unexpected token "const" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:10
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:11:29] Error fatal [ParseError]: syntax error, unexpected token "return" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:11:40] Error fatal [ParseError]: syntax error, unexpected token ";", expecting identifier or variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:26] Error fatal [ParseError]: syntax error, unexpected variable "$html" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:31] Error fatal [ParseError]: syntax error, unexpected token "=" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:32] Error fatal [ParseError]: syntax error, unexpected variable "$html" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:34] Error fatal [ParseError]: syntax error, unexpected variable "$html" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:41] Error fatal [ParseError]: syntax error, unexpected token "return", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:17
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:44] Error fatal [ParseError]: syntax error, unexpected token "return" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:17
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:47] Error fatal [ParseError]: syntax error, unexpected variable "$html" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:17
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:49] Error fatal [ParseError]: syntax error, unexpected token ")", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:15
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:12:51] Error fatal [ParseError]: syntax error, unexpected token "return" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:17
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:13:28] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\VIews\Views\Constructor\AssetManager" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:13:39] Error fatal [ParseError]: syntax error, unexpected identifier "AssetManager" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:7
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:13:42] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\VIews\Views\Constructor\AssetManager" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:14:05] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\VIews\Views\Constructor\AssetManager" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:14:06] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\VIews\Views\Constructor\AssetManager" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:14:30] Error fatal [ParseError]: syntax error, unexpected token "=" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:16
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:15:04] Error fatal [ParseError]: syntax error, unexpected variable "$html" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:16
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:15:06] Error fatal [ParseError]: syntax error, unexpected variable "$html" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:17
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:15:08] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/ConstructorBody.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:15:15] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/ConstructorBody.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:15:19] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': ❌ CSS no encontrado: E:\xampp\htdocs\appsitev9/public_html/Assets/Components/ConstructorBody.css en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:21:30] PHP Error [2]: Undefined variable $head en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:16
+[20:21:30] PHP Error [2]: Undefined variable $head en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:22
+[20:21:30] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Flame\Html\AbstractTag::addChild(): Argument #1 ($child) must be of type Flame\Interfaces\RenderableInterface|string, null given, called in E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php on line 22 en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:21:34] Error fatal [ParseError]: syntax error, unexpected token "=" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:16
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:21:37] Error fatal [ParseError]: syntax error, unexpected variable "$head" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:16
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:21:39] Error fatal [ParseError]: syntax error, unexpected variable "$head" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:17
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:21:50] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:21
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:21:52] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Object of class App\VIews\Views\Constructor\ConstructorView could not be converted to string en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[20:21:53] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:21
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:21:55] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:21
+Trace:
+#0 [internal function]: {closure}('App\\Views\\Views...')
+#1 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(21): class_exists('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#3 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#5 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#6 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#7 {main}
+[20:23:16] PHP Error [2]: Undefined variable $head en E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php:24
+[20:23:16] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Flame\Html\AbstractTag::addChild(): Argument #1 ($child) must be of type Flame\Interfaces\RenderableInterface|string, null given, called in E:\xampp\htdocs\appsitev9\App\Views\Views\Constructor\ConstructorView.php on line 24 en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}

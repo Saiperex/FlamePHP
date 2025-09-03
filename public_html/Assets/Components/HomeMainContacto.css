@@ -1,0 +1,535 @@
+.contacto {
+  padding: 100px 0;
+  background: linear-gradient(135deg, var(--color-gris) 0%, var(--color-blanco) 50%, var(--color-gris) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.contacto::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 25% 25%, rgba(255, 92, 138, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(255, 147, 86, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.contacto_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header Section */
+.contacto_header {
+  text-align: center;
+  margin-bottom: 80px;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.contacto_badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--color-rosa), var(--color-naranja));
+  color: var(--color-blanco);
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-family: var(--letra-botones);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 25px rgba(255, 92, 138, 0.3);
+}
+
+.contacto_title {
+  font-family: var(--letra-titulo);
+  font-size: clamp(2.8rem, 5vw, 4.2rem);
+  font-weight: 700;
+  color: var(--color-morado-oscuro);
+  margin: 0 0 25px 0;
+  line-height: 1.1;
+}
+
+.contacto_subtitle {
+  font-family: var(--letra-texto);
+  font-size: 1.3rem;
+  color: var(--color-morado-oscuro);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+/* Métodos de contacto */
+.contacto_methods {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.contacto_method {
+  background: var(--color-blanco);
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgba(26, 14, 42, 0.08);
+  border: 2px solid transparent;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.8s ease-out;
+  animation-fill-mode: both;
+}
+
+.contacto_method.whatsapp {
+  animation-delay: 0.1s;
+}
+.contacto_method.instagram {
+  animation-delay: 0.2s;
+}
+.contacto_method.tiktok {
+  animation-delay: 0.3s;
+}
+
+.contacto_method:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 60px rgba(26, 14, 42, 0.12);
+}
+
+.contacto_method.whatsapp:hover {
+  border-color: #25d366;
+}
+.contacto_method.instagram:hover {
+  border-color: #e4405f;
+}
+.contacto_method.tiktok:hover {
+  border-color: #000000;
+}
+
+/* Iconos de métodos */
+.contacto_method_icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto_icon_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  opacity: 0.1;
+  transition: all 0.3s ease;
+}
+
+.contacto_icon_bg.whatsapp_bg {
+  background: #25d366;
+}
+.contacto_icon_bg.instagram_bg {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.contacto_icon_bg.tiktok_bg {
+  background: #000000;
+}
+
+.contacto_icon_symbol {
+  font-size: 3rem;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.contacto_method:hover .contacto_icon_bg {
+  opacity: 0.2;
+  transform: scale(1.1);
+}
+
+.contacto_method:hover .contacto_icon_symbol {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Contenido de métodos */
+.contacto_method_title {
+  font-family: var(--letra-titulo);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-morado-oscuro);
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.contacto_method_description {
+  font-family: var(--letra-texto);
+  font-size: 1.1rem;
+  color: var(--color-morado-oscuro);
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 0 30px 0;
+  opacity: 0.8;
+}
+
+.contacto_method_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 12px 20px;
+  background: var(--color-gris);
+  border-radius: 12px;
+}
+
+.contacto_info_label {
+  font-family: var(--letra-botones);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-morado-oscuro);
+  opacity: 0.7;
+}
+
+.contacto_info_value {
+  font-family: var(--letra-texto);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-morado-oscuro);
+}
+
+/* Botones de métodos */
+.contacto_method_button {
+  display: block;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 50px;
+  font-family: var(--letra-botones);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contacto_method_button.whatsapp_button {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: var(--color-blanco);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.3);
+}
+
+.contacto_method_button.whatsapp_button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(37, 211, 102, 0.4);
+}
+
+.contacto_method_button.instagram_button {
+  background: linear-gradient(135deg, #f09433, #e4405f);
+  color: var(--color-blanco);
+  box-shadow: 0 8px 25px rgba(240, 148, 51, 0.3);
+}
+
+.contacto_method_button.instagram_button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(240, 148, 51, 0.4);
+}
+
+.contacto_method_button.tiktok_button {
+  background: linear-gradient(135deg, #000000, #333333);
+  color: var(--color-blanco);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contacto_method_button.tiktok_button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+/* Formulario de contacto */
+.contacto_form_section {
+  background: var(--color-blanco);
+  border-radius: 25px;
+  padding: 60px 50px;
+  margin-bottom: 80px;
+  box-shadow: 0 20px 50px rgba(26, 14, 42, 0.08);
+  animation: fadeInUp 0.8s ease-out 0.4s both;
+}
+
+.contacto_form_header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contacto_form_title {
+  font-family: var(--letra-titulo);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--color-morado-oscuro);
+  margin: 0 0 15px 0;
+}
+
+.contacto_form_subtitle {
+  font-family: var(--letra-texto);
+  font-size: 1.1rem;
+  color: var(--color-morado-oscuro);
+  margin: 0;
+  opacity: 0.8;
+}
+
+.contacto_form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto_form_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.contacto_form_group {
+  margin-bottom: 25px;
+}
+
+.contacto_form_label {
+  display: block;
+  font-family: var(--letra-botones);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-morado-oscuro);
+  margin-bottom: 8px;
+}
+
+.contacto_form_input,
+.contacto_form_textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border: 2px solid rgba(26, 14, 42, 0.1);
+  border-radius: 12px;
+  font-family: var(--letra-texto);
+  font-size: 1rem;
+  color: var(--color-morado-oscuro);
+  background: var(--color-gris);
+  transition: all 0.3s ease;
+  resize: vertical;
+}
+
+.contacto_form_input:focus,
+.contacto_form_textarea:focus {
+  outline: none;
+  border-color: var(--color-rosa);
+  box-shadow: 0 0 0 3px rgba(255, 92, 138, 0.1);
+  background: var(--color-blanco);
+}
+
+.contacto_form_submit {
+  width: 100%;
+  padding: 18px 40px;
+  background: linear-gradient(135deg, var(--color-rosa), var(--color-naranja));
+  color: var(--color-blanco);
+  border: none;
+  border-radius: 50px;
+  font-family: var(--letra-botones);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 30px rgba(255, 92, 138, 0.3);
+}
+
+.contacto_form_submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 40px rgba(255, 92, 138, 0.4);
+}
+
+/* Información extra */
+.contacto_info_extra {
+  margin-bottom: 80px;
+  animation: fadeInUp 0.8s ease-out 0.5s both;
+}
+
+.contacto_info_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.contacto_info_item {
+  background: var(--color-blanco);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(26, 14, 42, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.contacto_info_item:hover {
+  transform: translateY(-5px);
+}
+
+.contacto_info_icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contacto_info_item_title {
+  font-family: var(--letra-titulo);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-morado-oscuro);
+  margin: 0 0 15px 0;
+}
+
+.contacto_info_item_text {
+  font-family: var(--letra-texto);
+  font-size: 1rem;
+  color: var(--color-morado-oscuro);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.8;
+}
+
+/* CTA Final */
+.contacto_cta {
+  background: linear-gradient(135deg, var(--color-morado-oscuro), var(--color-rosa));
+  border-radius: 25px;
+  padding: 60px 40px;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out 0.6s both;
+}
+
+.contacto_cta_title {
+  font-family: var(--letra-titulo);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-blanco);
+  margin: 0 0 20px 0;
+}
+
+.contacto_cta_text {
+  font-family: var(--letra-texto);
+  font-size: 1.2rem;
+  color: var(--color-blanco);
+  margin: 0 0 40px 0;
+  opacity: 0.95;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.contacto_cta_button {
+  background: var(--color-blanco);
+  color: var(--color-morado-oscuro);
+  border: none;
+  padding: 18px 40px;
+  border-radius: 50px;
+  font-family: var(--letra-botones);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contacto_cta_button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  background: var(--color-gris);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contacto {
+    padding: 80px 0;
+  }
+
+  .contacto_container {
+    padding: 0 15px;
+  }
+
+  .contacto_header {
+    margin-bottom: 60px;
+  }
+
+  .contacto_methods {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+
+  .contacto_method {
+    padding: 30px;
+  }
+
+  .contacto_form_section {
+    padding: 40px 25px;
+  }
+
+  .contacto_form_row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .contacto_info_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contacto_cta {
+    padding: 50px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacto_badge {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .contacto_subtitle {
+    font-size: 1.1rem;
+  }
+
+  .contacto_method_icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .contacto_icon_symbol {
+    font-size: 2.5rem;
+  }
+
+  .contacto_method_title {
+    font-size: 1.6rem;
+  }
+
+  .contacto_cta_title {
+    font-size: 2rem;
+  }
+}

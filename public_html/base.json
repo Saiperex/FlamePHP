@@ -1,0 +1,272 @@
+{
+    "general": 
+    {
+        "template": "gastronomico_1",
+        "logo": "uploads/logo.png",
+        "favicon": "uploads/favicon.png",
+        "titulo": "Mi Sitio Genial",
+        "description": "Esta es la descripción para SEO",
+        "fondo": 
+        {
+            "tipo": "gradient",
+            "valor": "linear-gradient(to right, #ff0000, #0000ff)",
+            "efecto": "parallax"
+        },
+        "tipografia": 
+        {
+            "titulo": "Roboto",
+            "subtitulo": "Open Sans",
+            "parrafo": "Lato",
+            "boton": "Montserrat"
+        }
+    },
+    "secciones": {
+        "hero": {
+            "fondo": 
+            {
+                "tipo": "image",
+                "valor": "uploads/hero-bg.jpg",
+                "efecto": "overlay"
+            },
+            "titulo": 
+            {
+                "texto": "Bienvenido a Mi Sitio",
+                "color": "#ffffff"
+            },
+            "subtitulo": 
+            {
+                "texto": "El mejor lugar para tus ideas",
+                "color": "#cccccc"
+            },
+            "parrafo": 
+            {
+                "texto": "Aquí puedes encontrar todo lo que necesitas",
+                "color": "#ffffff"
+            },
+            "primer_enlace": 
+            {
+                "texto": "Conocer más",
+                "enlace": "#about"
+            }
+        },
+        "catalogo": {
+            "active": true,
+            "order": 1,
+            "fondo": 
+            {
+                "tipo": "degradado",
+                "valor": "linear-gradient(to bottom, #ffffff, #f0f0f0)",
+                "efecto": "none"
+            },
+            "titulo": 
+            {
+                "texto": "Nuestro Catálogo",
+                "color": "#222222"
+            },
+            "subtitulo": 
+            {
+                "texto": "Explora nuestros productos",
+                "color": "#555555"
+            },
+            "cards": 
+            {
+                "borde": "1px solid #dddddd",
+                "color_fondo": "#ffffff",
+                "color_titulo": "#000000",
+                "color_texto": "#333333",
+                "color_precio": "#ff0000",
+                "buttons": {
+                    "color_primario": "#ff0000",
+                    "color_secundario": "#cc0000",
+                    "borde_color_primario": "#990000",
+                    "borde_color_secundario": "#660000",
+                    "animacion_activa": "pulse",
+                    "animacion_pasiva": "none",
+                    "sombra": "0 4px 8px rgba(0,0,0,0.2)",
+                    "color_texto": "#ffffff"
+                }
+            }
+        },
+        "galeria": 
+        {
+            "active": true,
+            "order": 2,
+            "fondo": 
+            {
+                "tipo": "image",
+                "valor": "uploads/gallery-bg.jpg",
+                "efecto": "overlay"
+            },
+            "titulo": 
+            {
+                "texto": "Galería",
+                "color": "#ffffff"
+            },
+            "subtitulo": 
+            {
+                "texto": "Un vistazo a nuestro mundo",
+                "color": "#dddddd"
+            }
+        },
+        "turnos": {
+            "active": true,
+            "order": 3,
+            "fondo": 
+            {
+                "tipo": "solido",
+                "valor": "#f5f5f5",
+                "efecto": "none"
+            },
+            "titulo": 
+            {
+                "texto": "Solicita tu Turno",
+                "color": "#000000"
+            },
+            "subtitulo": 
+            {
+                "texto": "Rápido y sencillo",
+                "color": "#555555"
+            },
+            "formulario": 
+            {
+                "color_fondo": "#ffffff",
+                "color_texto": "#333333",
+                "color_borde": "#cccccc",
+                "buttons": 
+                {
+                    "color_primario": "#28a745",
+                    "color_secundario": "#218838",
+                    "borde_color_primario": "#1e7e34",
+                    "borde_color_secundario": "#155724",
+                    "animacion_activa": "pulse",
+                    "animacion_pasiva": "none",
+                    "sombra": "0 4px 8px rgba(0,0,0,0.2)",
+                    "color_texto": "#ffffff"
+                }
+            }
+        },
+        "reservas": {
+            "active": true,
+            "order": 4,
+            "fondo": 
+            {
+                "tipo": "gradient",
+                "valor": "linear-gradient(to right, #ffffff, #eeeeee)",
+                "efecto": "none"
+            },
+            "titulo": 
+            {
+                "texto": "Haz tu Reserva",
+                "color": "#000000"
+            },
+            "subtitulo": 
+            {
+                "texto": "Asegura tu lugar con nosotros",
+                "color": "#555555"
+            },
+            "formulario": 
+            {
+                "color_fondo": "#ffffff",
+                "color_texto": "#333333",
+                "color_borde": "#cccccc",
+                "buttons": 
+                {
+                    "color_primario": "#ff6600",
+                    "color_secundario": "#e65c00",
+                    "borde_color_primario": "#cc5200",
+                    "borde_color_secundario": "#993d00",
+                    "animacion_activa": "pulse",
+                    "animacion_pasiva": "none",
+                    "sombra": "0 4px 8px rgba(0,0,0,0.2)",
+                    "color_texto": "#ffffff"
+                }
+            }
+        },
+        "eventos": 
+        {
+            "active": true,
+            "order": 5,
+            "fondo": 
+            {
+                "tipo": "image",
+                "valor": "uploads/eventos-bg.jpg",
+                "efecto": "parallax"
+            },
+            "titulo": 
+            {
+                "texto": "Próximos Eventos",
+                "color": "#ffffff"
+            },
+            "subtitulo": 
+            {
+                "texto": "No te pierdas lo que viene",
+                "color": "#dddddd"
+            },
+            "cards": 
+            {
+                "borde": "1px solid #444444",
+                "color_fondo": "#ffffff",
+                "color_titulo": "#000000",
+                "color_texto": "#333333",
+                "color_precio": "#ff0000",
+                "buttons": 
+                {
+                    "color_primario": "#007bff",
+                    "color_secundario": "#0069d9",
+                    "borde_color_primario": "#0056b3",
+                    "borde_color_secundario": "#004085",
+                    "animacion_activa": "pulse",
+                    "animacion_pasiva": "none",
+                    "sombra": "0 4px 8px rgba(0,0,0,0.2)",
+                    "color_texto": "#ffffff"
+                }
+            }
+        },
+        "enlaces": 
+        {
+            "active": true,
+            "order": 6,
+            "fondo": 
+            {
+                "tipo": "solido",
+                "valor": "#222222",
+                "efecto": "none"
+            },
+            "titulo": 
+            {
+                "texto": "Enlaces Útiles",
+                "color": "#ffffff"
+            },
+            "subtitulo": 
+            {
+                "texto": "Accesos directos",
+                "color": "#cccccc"
+            }
+        },
+        "nosotros": {
+            "active": true,
+            "order": 7,
+            "fondo": 
+            {
+                "tipo": "image",
+                "valor": "uploads/nosotros-bg.jpg",
+                "efecto": "fixed"
+            },
+            "titulo": 
+            {
+                "texto": "Sobre Nosotros",
+                "color": "#ffffff"
+            },
+            "subtitulo": 
+            {
+                "texto": "Nuestra historia y valores",
+                "color": "#dddddd"
+            },
+            "parrafo": 
+            {
+                "texto": "Somos un equipo apasionado por la calidad y la experiencia gastronómica.",
+                "color": "#ffffff"
+            }
+        }
+    }
+}

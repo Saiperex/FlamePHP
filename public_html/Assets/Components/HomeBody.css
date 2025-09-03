@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root {
+    --letra-menu: "Space Grotesk", sans-serif;
+    --letra-titulo: "Rajdhani", sans-serif;
+    --letra-botones: "Rubik", sans-serif;
+    --letra-texto: "Inter", sans-serif;
+
+    --color-negro: #000;
+    --color-morado-oscuro: #1a0e2a;
+    --color-rosa: #ff5c8a;
+    --color-naranja: #ff9356;
+    --color-blanco: #fff;
+    --color-gris: #f9fafb;
+}

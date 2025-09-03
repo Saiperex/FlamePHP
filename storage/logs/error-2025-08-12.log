@@ -1,0 +1,1438 @@
+[16:20:13] [Advertencia] La ruta para logs no está definida en la variable de entorno LOG_PATH. Se está usando la ruta por defecto: E:\xampp\htdocs\appsitev9\storage\logs
+[16:20:13] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Call to undefined method App\views\Components\Constructor\ConstructorSection::rubroOpcion() en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:20:35] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Call to undefined method App\views\Components\Constructor\ConstructorSection::rubroOpcion() en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:20:49] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Unclosed '{' on line 228 en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:20:51] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Call to undefined method App\views\Components\Constructor\ConstructorSection::rubroOpcion() en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:21:14] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\Views\Components\Constructor\ConstructorOpcCategory" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:21:18] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\Views\Components\Constructor\ConstructorOpcCategory" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:21:19] Excepción [Exception]: Error al renderizar la vista 'App\VIews\Views\Constructor\ConstructorView': Class "App\Views\Components\Constructor\ConstructorOpcCategory" not found en E:\xampp\htdocs\appsitev9\Flame\Html\Renderer\ViewRenderer.php:34
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\BaseController\BaseController.php(35): Flame\Html\Renderer\ViewRenderer::render_view(Object(App\VIews\Views\Constructor\ConstructorView))
+#1 E:\xampp\htdocs\appsitev9\App\Controllers\CrearController.php(21): Flame\BaseController\BaseController->render('App\\Views\\Views...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(130): App\Controllers\CrearController->index()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#4 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#5 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#6 {main}
+[16:51:30] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:03:18] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:03:24] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:03:35] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:03:56] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:03:58] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:04:00] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:04:02] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:04:04] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:04:07] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:04:09] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:12] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:17] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:20] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:26] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:48] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:52] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:54] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:57] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:05:58] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:01] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:02] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:05] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:06] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:09] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:14] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:17] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:19] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:26] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:29] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:34] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:06:36] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:11:53] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:11:58] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:11:59] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:05] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:07] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:30] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:34] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:39] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:43] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:46] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:12:50] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:12] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:43] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:46] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:48] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:50] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:55] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:14:58] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:15:09] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:15:11] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:15:13] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:15:15] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:15:22] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:15:31] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:19:43] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:01] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:11] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:20] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:26] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:29] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:36] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:42] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:44] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:50] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:52] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:53] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:20:55] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:22:12] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:22:17] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:22:24] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:23:02] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:23:05] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:23:10] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:23:13] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:23:20] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[17:26:07] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:03:13] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:03:34] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:03:55] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:04:31] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:05:18] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:05:45] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:06:26] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:06:59] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:07:35] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:08:17] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:08:46] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:09:04] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:09:46] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:10:07] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:11:03] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:11:29] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:12:51] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:12:53] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:13:10] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:13:16] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:13:16] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:13:22] Error fatal [ParseError]: syntax error, unexpected end of file, expecting "{" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:2
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:23] Error fatal [ParseError]: syntax error, unexpected end of file, expecting "{" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:2
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:28] Excepción [Exception]: DefaultController 'App\Controllers\DefaultController' no encontrado. en E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php:52
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#2 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#3 {main}
+[22:13:31] Error fatal [ParseError]: syntax error, unexpected end of file, expecting identifier en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:4
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:37] Error fatal [ParseError]: syntax error, unexpected end of file en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:4
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:43] Error fatal [ParseError]: syntax error, unexpected end of file, expecting "{" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:4
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:44] Error fatal [ParseError]: syntax error, unexpected end of file, expecting "{" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:4
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:44] Error fatal [ParseError]: syntax error, unexpected end of file, expecting "{" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:4
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:45] Error fatal [ParseError]: syntax error, unexpected end of file, expecting "{" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:6
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:13:47] Fatal error: Class App\Controllers\DefaultController contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Flame\BaseController\BaseController::index) in E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php on line 6
+[22:14:31] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:32] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:33] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:39] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:42] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:45] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:48] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:51] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:11
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:14:53] PHP Error [2]: Undefined array key "page" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:10
+[22:14:56] Error fatal [ParseError]: syntax error, unexpected token ";" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:10
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:15:17] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:15:19] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:15:20] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:02] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:04] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:18] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:20] Error fatal [ParseError]: syntax error, unexpected token ")", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:23] Error fatal [ParseError]: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:24] Error fatal [ParseError]: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:24] Error fatal [ParseError]: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:12
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:25] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:27] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:54] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:55] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:56] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:15
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:17:58] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:15
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:01] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:03] Error fatal [ParseError]: syntax error, unexpected token ")", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:13
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:04] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:07] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:09] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:13] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:25] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:18:34] Error fatal [ParseError]: syntax error, unexpected variable "$this" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:14
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:19:48] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:15
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:19:48] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:15
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:20:17] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:16
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:20:26] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:19
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:20:26] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:19
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:20:44] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:19
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:20:58] Error fatal [ParseError]: syntax error, unexpected token "class", expecting "," or ";" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:8
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:24:50] Excepción [Exception]: Error al obtener Datos del slug: No se encontraron registros. en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:24
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(63): App\Controllers\DefaultController->index()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#3 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#4 {main}
+[22:24:54] Excepción [Exception]: Error al obtener Datos del slug: No se encontraron registros. en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:24
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(63): App\Controllers\DefaultController->index()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#3 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#4 {main}
+[22:25:04] Excepción [Exception]: No hay registros: No se encontraron registros. en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:24
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(63): App\Controllers\DefaultController->index()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#3 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#4 {main}
+[22:25:58] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:00] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:24] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:26] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:41] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:43] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:49] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:26:51] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:01] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:04] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:07] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:13] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:16] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:19] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:24] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:26] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:31] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:35] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:37] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:37] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:43] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:46] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:46] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:50] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:27:57] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:28:05] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:28:07] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:28:18] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:28:20] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:28:21] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:26
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:28:26] Error fatal [Error]: Undefined constant "App\Controllers\NothingView" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:25
+Trace:
+#0 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(63): App\Controllers\DefaultController->index()
+#1 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#3 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#4 {main}
+[22:29:31] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:29:32] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:29:42] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:29:45] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:30:47] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:30:47] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:32:39] Error fatal [ParseError]: syntax error, unexpected token ")", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:30
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:34:19] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:34:22] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:35:17] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:35:17] Error fatal [ParseError]: syntax error, unexpected token "}", expecting variable or "{" or "$" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:35:30] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:35:41] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:35:43] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}
+[22:35:56] Error fatal [ParseError]: syntax error, unexpected token "}" en E:\xampp\htdocs\appsitev9\App\Controllers\DefaultController.php:35
+Trace:
+#0 [internal function]: {closure}('App\\Controllers...')
+#1 E:\xampp\htdocs\appsitev9\Flame\Routing\WebRouter.php(51): class_exists('App\\Controllers...')
+#2 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(176): Flame\Routing\WebRouter->dispatch()
+#3 E:\xampp\htdocs\appsitev9\Flame\Run\Flame.php(148): Flame\Run\Flame::initialize()
+#4 E:\xampp\htdocs\appsitev9\public_html\index.php(13): Flame\Run\Flame::run()
+#5 {main}

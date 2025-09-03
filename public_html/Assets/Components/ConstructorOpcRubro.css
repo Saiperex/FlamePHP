@@ -1,0 +1,32 @@
+.rubro_item input[type="radio"] {
+    display: none;
+}
+.rubro_item label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.rubro_item input[type="radio"]+ label
+{
+    border: solid 1px var(--color-negro);
+    font-family: var(--letra-menu);
+    color: var(--color-negro);
+}
+.rubro_item input[type="radio"]:checked + label {
+    border-color: var(--color-blanco);
+    background-color: var(--color-rosa);
+    color: var(--color-blanco);
+}
+.rubro_item label:hover {
+    border-color: var(--color-blanco);
+    background-color: var(--color-rosa);
+    color: var(--color-blanco);
+}
+.rubro_item .icono {
+    font-size: 1.5rem;
+}
